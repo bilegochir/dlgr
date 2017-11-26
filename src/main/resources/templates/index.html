@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layout">
+<head>
+<title>Spring Security Example</title>
+</head>
+<body>
+	<div:block layout:fragment="content">
+
+		<div class="row">
+			<div class="col-auto mr-auto"></div>
+			<div class="col-auto">
+				<select class="form-control form-control-sm">
+					<option>Featured</option>
+					<option>Best Selling</option>
+					<option>Alphabetically, A-Z</option>
+					<option>Alphabetically, Z-A</option>
+					<option>Price, low to high</option>
+					<option>Price, high to low</option>
+				</select>
+			</div>
+
+			<div class="row product_list">
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<a href="product.html"><img src="image/k2_500x500.jpg" /></a> <span
+							class="badge badge-danger ribbons">Sale</span> <a
+							href="product.html"><span>MiMo ger M-30 (furnished
+								ger)</span></a>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/o2_500x500.jpg" /> <span
+							class="badge badge-warning ribbons">New</span> 
+							<span>BO Play Wireless Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/j2_500x500.jpg" /> <span
+							class="badge badge-warning ribbons">New</span> <span>BO Play
+							Wireless Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/c2_500x500.jpg" /> <span
+							class="badge badge-danger ribbons">Sale</span> <span>BO Play
+							Wireless Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/c2_500x500.jpg" /> <span>BO Play Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/o2_500x500.jpg" /> <span
+							class="badge badge-danger ribbons">Sale</span> <span>BO Play
+							Wireless Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/j2_500x500.jpg" /> <span>BO Play Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/c2_500x500.jpg" /> <span>BO lay Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/j2_500x500.jpg" /> <span>B Play Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/b2_500x500.jpg" /> <span>BO ay Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/a1_500x500.jpg" /> <span>BO Play Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-md-6 col-lg-3">
+					<div class="product">
+						<img src="image/i2_500x500.jpg" /> <span>BO Play Wireless
+							Speaker</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div:block>
+</body>
+</html>
