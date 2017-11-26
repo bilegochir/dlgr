@@ -1,0 +1,111 @@
+body {
+    color: #999;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    background: #fff;
+    word-wrap: break-word;
+    line-height: 1.7;
+}
+
+.main {
+	margin-top: 35px;
+}
+
+.navbar {
+	background-color: #fff !important;
+	padding: 20px 0;
+	border-bottom: 1px solid #EAEDED;
+}
+
+.navbar-brand {
+	font-size: 36px;
+}
+
+.product_list {
+	margin-top: 20px;
+}
+
+.product {
+	margin-bottom: 30px;
+}
+
+.product img {
+	width: 100%;
+}
+
+.fa {
+	margin-left: 10px;
+}
+
+a {
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.categories {
+	list-style: none;
+    padding: 0 0 10px 0;
+}
+
+.categories a{
+	color: #999;
+}
+
+.category-title{
+	color: #F5B041;
+}
+
+.ribbons {
+	position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.fs1 {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.badge {
+	font-weight: 400;
+	padding: 5px 10px;
+}
+
+.footer {
+	padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #EAEDED;
+}
+
+.footer a{
+	margin-left: 10px;
+}
+
+.single-product img{
+	height: 100%;
+}
+
+.product-detail {
+	margin-left: 20px;
+}
+
+.detail h6{
+	margin-top: 50px;
+	color: #F5B041;
+}
+
+.pic-lib {
+	float: left;
+	padding: 30px 0 10px 10px;
+}
+
+.pic-lib img{
+	width: 75px;
+	height: 75px;
+}
